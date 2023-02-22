@@ -6,11 +6,10 @@ def stringy(num)
   while i < num 
     if i % 2 == 0
       str += '1'
-      i += 1
     else 
       str += '0'
-      i += 1
     end
+    i += 1
   end
   str
 end
