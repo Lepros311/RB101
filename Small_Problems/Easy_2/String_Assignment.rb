@@ -13,3 +13,5 @@
 # WRONG, DUMBASS.
 
 # Pass by Reference vs Pass by Value: https://launchschool.com/lessons/8a39abff/assignments/20041df9
+
+# Because assignment in ruby just assigns a reference to a variable, both name and save_name refer to the same string, Bob. When you apply name.upcase!, which mutates name in place, the value that save_name references also changes. Thus, both name and save_name are set equal to 'BOB'.
